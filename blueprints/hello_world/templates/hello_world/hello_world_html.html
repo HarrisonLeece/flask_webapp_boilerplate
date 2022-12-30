@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='normalize.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='skeleton.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='open_garage.css')}}">
+    <title>HelloWorld!</title>
+    <!-- This code block allows flashing of error messages from flask, which is critical for debugging  -->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class=flashes>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    <!-- ############## -->
+  </head>
+  <body>
+    <h1> Hello World! </h1>
+  </body>
+</html>

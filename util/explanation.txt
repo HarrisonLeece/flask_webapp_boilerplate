@@ -1,0 +1,8 @@
+__init__.py registers this folder as a python package
+
+__init__.py is a blank file, the presence of the blank file is all that is needed for the directory to be a python package!
+
+Now you can import any functions or objects that don't belong in the rest of the file hierarchy into the rest of the program from 
+.py files you add to this directory
+
+you can then import them back into the file with:
