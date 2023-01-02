@@ -3,3 +3,6 @@ Flask>=2.2.2
 Flask-SQLAlchemy>=3.0.2
 WTForms>=3.0.1
 Flask-WTF>=1.0.1
+passlib>=1.74
+email_validator
+

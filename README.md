@@ -13,7 +13,7 @@ The provided module use skeleton css as a base, with a tiny bit of custom css to
 
 ## Download dependancies with requirements.txt
 ```
-python3 pip -r requirements.txt
+python3 -m pip -r requirements.txt
 ```
 
 ## To launch webapp

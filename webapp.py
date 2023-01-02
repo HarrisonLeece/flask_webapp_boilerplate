@@ -62,7 +62,7 @@ def create_tables():
 @app.route("/", methods=['GET', 'POST'])
 def home():
     valid_sign_in = True
-    if (valid_sign_in):
+    if (not valid_sign_in):
         return redirect('/sign-in')
     else:
         return redirect('/hello')

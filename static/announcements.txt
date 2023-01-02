@@ -1,3 +1,3 @@
-This is the alpha version of the Cory Neighborhood Open Garage, a utility for sharing tools and finding helpful neighbors.
+This is the alpha version of the Flask webapp boilerplate code, for easy web developement
 
 Developed by Harrison Leece
